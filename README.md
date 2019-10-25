@@ -9,7 +9,7 @@ Boostiny has a Post Affiliate Pro account to store their users' data. Data loadi
 python 'requests' library to load it since PAP (Post Affiliate Pro) is using http requests.
 
 We have chosen to develop an hybrid recommender system since Boostiny doesn't have a large amount of data and also due to its robustness ("BannersHybrid.ipynb")<br/>
-  For the content based RS, we have chosen to mainly work with Cosinus Similarity and Euclidian Distances ("AffiliatesContentBased.ipynb","BannersContentBased.ipynb")<br/>
-  For the collaborative one, we used deep learning approaches (Light FM,Word Embedding) ("CollaborativeRecommenderSystem.ipynb")<br/>
+  -For the content based RS, we have chosen to mainly work with Cosinus Similarity and Euclidian Distances ("AffiliatesContentBased.ipynb","BannersContentBased.ipynb")<br/>
+  -For the collaborative one, we used deep learning approaches (Light FM,Word Embedding) ("CollaborativeRecommenderSystem.ipynb")<br/>
   
 The Recommender System was deployed with Flask on an AWS Server (Deployement.ipynb)
